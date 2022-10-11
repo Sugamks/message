@@ -26,6 +26,7 @@ def main(input):
         ["sorry",["Its alright","Its OK, never mind"]],
         ["i am fine",["Great to hear that, How can I help you?"]],
         ["(i'm|i am|im) doing good",["Nice to hear that","How can I help you?:)"]],
+        ["(what do you do|what can you do|what is your purpose|what do you serve)"["I am a Chat Bot for E-commerce, where i can answer your questions regarding the products"]],
         ["quit",["BBye take care. See you soon :) ","It was nice talking to you. See you soon :)"]],
     ]
     chat = Chat(pairs,reflections)
